@@ -32,6 +32,6 @@ dependencies {
             implementation(string("kotlin"))
         }
     }
-    api(project(":test_common_unit"))
-    api(project(":test_common_integration"))
+    api(project(":lib_test_common_unit"))
+    api(project(":lib_test_common_integration"))
 }
