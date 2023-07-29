@@ -1,8 +1,11 @@
 tezovConfig {
     configuration {
-        domain = tezovCatalog.string("domain")
-//        proguardCConsumerPaths.apply {
-//            add("consumer-rules.pro")
+        hasResources = false
+        hasAssets = false
+    }
+    release {
+//        proguards.apply {
+//            add(File("consumer-rules.pro"))
 //        }
     }
     configureAndroidPlugin()
