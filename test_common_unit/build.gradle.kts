@@ -17,7 +17,7 @@ android {
                 targetCompatibility = javaVersion("javaTarget")
             }
             kotlinOptions {
-                jvmTarget = string("jvmTarget")
+                jvmTarget = javaVersion("jvmTarget").toString()
             }
             defaultConfig {
                 minSdk = int("defaultMinCompileSdk")
